@@ -1,5 +1,7 @@
 import './style.css'
-import { getData, postData, putData, deleteData } from './api/apiService.js';
+import { getData, postData, putData, deleteData } from './API/apiService.js';
+
+// This application is meant to serve as an example of what you can do with Vite in setting up a simple todo app.
 
 const todoForm = document.getElementById('todoForm');
 const todoInput = document.getElementById('todoInput');
